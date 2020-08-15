@@ -5,7 +5,7 @@ echo "#"
 echo "#"
 # Check argument if valid
 if [[ "$1" =~ ^(create|delete|update)$ ]]; then
-    echo "# Let's beging!"
+    echo "# Let's manage your clouflare DNS!"
     echo "#"
 else
     echo "# $1 is not a valid argument. Try ./cf.sh create or ./cf delete"
